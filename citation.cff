@@ -4,8 +4,8 @@ authors:
 - family-names: "Alcraft"
   given-names: "Rachel"
   orcid: "https://orcid.org/0000-0003-2674-6321"
-title: "APP-LIB-PY: A template for scientific python development
+title: "BLOODGLUCOSE: A library for bloodglucose management
 version: 1.0.0
 doi: xxx
 date-released: 01-May-2024
-url: "https://github.com/RachelAlcraft/app-lib-py"
+url: "https://github.com/RachelAlcraft/bloodglucose"

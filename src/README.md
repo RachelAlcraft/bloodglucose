@@ -1,3 +1,3 @@
-# APP-LIB-PY
+# BLOOD GLUCOSE
 
 Scientific library example

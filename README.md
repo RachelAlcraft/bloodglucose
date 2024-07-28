@@ -1,6 +1,6 @@
-# app-lib-py
+# BloodGlucose
 
-Hosted at: [streamlit:app-lib-py](https://app-lib-py.streamlit.app/)
+Hosted at: [streamlit:app-lib-py](https://bloodglucose.streamlit.app/)
 
 This template is a suggestion of good practice for a scientific python library that includes continuous integration and conntinuous development and continuous documentation.
 The application is demonstrated though streamlist which is deployed with continuous deployment, and also made a available via pypi as a python library with `pip install`

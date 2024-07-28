@@ -1,10 +1,10 @@
 import streamlit as st
-from app_lib_py import ClassCurves as cc
+from bloodglucose import ClassCurves as cc
 import random
 
 st.set_page_config(
-    page_title="app-lib-py",
-    page_icon="app/static/a_l_p.png",
+    page_title="bg",
+    page_icon="🩸",
     layout="wide",
 )
 
@@ -25,10 +25,10 @@ with tabEg:
 
 
 with tabCode:
-    st.code("pip install app_lib_py")
+    st.code("pip install bloodglucose")
     st.code(
         """
-        from app_lib_py import ClassCurves as cc
+        from bloodglucose import ClassCurves as cc
         import random
         inta = int(random.random() * 100)
         intb = int(random.random() * 100)

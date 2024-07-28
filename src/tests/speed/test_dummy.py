@@ -8,7 +8,7 @@ DIR = dirname(abspath(__file__))
 sys.path.append((DIR))
 print("Loading to path", (DIR))
 import help_speed as hs  # noqa: E402
-from app_lib_py import ClassCurves as cc  # noqa: E402
+from bloodglucose import ClassCurves as cc  # noqa: E402
 
 
 def test_numpy():
