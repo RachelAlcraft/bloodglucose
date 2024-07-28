@@ -7,4 +7,3 @@ black
 urllib3==1.26.6
 pytest
 pre-commit
-bloodglucose
