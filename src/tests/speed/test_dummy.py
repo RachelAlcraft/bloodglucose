@@ -18,6 +18,7 @@ def test_numpy():
             print(f"{i}/{hs.get_iterations()}", "load_quadratic")
         sq = cc.Quadratic(1, 0, 0)
         ys = sq.get_ys([0, 1, 2, 3])
+        print(ys)
     total_speed = hs.get_speed(start)
     assert hs.is_it_error("test_numpy", total_speed), f"test_numpy, {total_speed}"
     hs.update_speed("test_numpy", total_speed, start)
