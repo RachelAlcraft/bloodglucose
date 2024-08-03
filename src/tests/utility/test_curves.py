@@ -4,7 +4,7 @@ import inspect
 from pathlib import Path
 
 sys.path.append(os.path.join(os.path.dirname(Path(__file__).parent.parent), ""))
-from bloodglucose import ClassCurves as cc
+from bloodglucose.Analysis import ClassCurves as cc
 
 
 # ---------------------------------------------------------------------------

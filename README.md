@@ -51,21 +51,9 @@ For pydoctor, you need the setting Actions/General/Allow GitHib Actions to creat
 ## 5. Test driven development, design the functionality
 Write the tests in **science**, **speed** and **utility** before you write the functional implementation.
 
-## 6. Implement
-The src/app_lib_py directory is the place to write the functional code for the library. This will become available on pypi as a `pip install`.
-
 ## 7. Distribute and deploy
 The github actions automate the distribtion to pypi, test running, and docker.
 If you choose to distribute on streamlit this will be automated by checkin to main.
-
-### 7a. Pypi
-Tokens are needed from pypi and from github. You create a token in pypi, and then add it in github/secrets and variables/Actions with the name PYPI_API_TOKEN. Follow these instructions: [pypi gha token](https://www.seanh.cc/2022/05/21/publishing-python-packages-from-github-actions/#create-a-pypi-api-token)
-
-You will need to create a 0.01 or some such release to get the workflow going and test it.
-To release to pypi you need to either:
-- Create a release in github, the tag will be the version number of the library
-- Or if it is only a minor incremebt, you can run the workflow in Actions [Create a new patch release](https://github.com/RachelAlcraft/app-lib-py/actions/workflows/release.yml). This will increment the minor version and release.
-
 
 ### 7b. Streamlit
 Streamlit will be automatically deployed when the main branch is updated after the link with streamlit is made.
@@ -76,10 +64,3 @@ Streamlit will be automatically deployed when the main branch is updated after t
 5. Choose entry file: app/home.py
 6. Amend the domain to your liking [app-lib-py](https://app-lib-py.streamlit.app/)
 7. Press deploy
-
-### 7c. Docker
-The application can also be added to docker for self hosting. API tokens need to be added.
-1. First create an api token in docker/My Account/Security/Access Tokens
-2. In github/Settings/Secrets and Variables/Actions
-  - add the copied token as a secret with the name DOCKERHUB_TOKEN
-  - add your docker user name with the name DOCKERHUB_USERNAME

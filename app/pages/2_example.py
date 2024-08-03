@@ -1,5 +1,5 @@
 import streamlit as st
-from bloodglucose import ClassCurves as cc
+from bloodglucose.Analysis import ClassCurves as cc
 import random
 
 st.set_page_config(

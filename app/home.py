@@ -1,4 +1,9 @@
 import streamlit as st
+import sys
+from pathlib import Path
+path = str(Path(__file__).parent.parent.absolute()) + "/src/"
+sys.path.append(path)
+
 
 st.set_page_config(
     page_title="bg",
