@@ -1,6 +1,7 @@
 """
 Test the speed of dummy functionality
 """
+
 from os.path import dirname, abspath
 import sys
 

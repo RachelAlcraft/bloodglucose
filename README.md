@@ -25,7 +25,7 @@ See [dev environments](dev.md)
 https://pre-commit.com/
 Run it to check
 `pre-commit run --all-files`
-`ruff --target-version=py311 --line-length 88 . --fix`
+`ruff check --target-version=py311 --line-length 88 . --fix`
 `black ./ --check --line-length 88 --diff`
 
 ## 4. PyDoctor automatic documentaion
